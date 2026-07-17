@@ -1,0 +1,79 @@
+@font-face {
+    src: url("./cursed-timer-ulil-font/CursedTimerUlil-Aznm.ttf");
+    font-family: "scoreboard";
+}
+
+body {
+    margin: 0;
+    background-color: #19244D;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    
+}
+
+.column { 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h3 {
+    font-size: 40px;
+    color:white;
+    margin: 5px;
+}
+.score {
+    font-family: Scoreboard;
+    display:flex;
+    background-color: black;
+    width: 175px;
+    height: 160px;
+    color:#E04761;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    font-weight: normal;
+    border-radius: 10px;
+}
+.anchor {
+    display: block;
+    height: 400px;
+    align-content: center;
+}
+.btn-wrapper button {
+    padding: 5px 10px;
+    color: #8293B2;
+    background-color: #19244D;
+    border: solid #8293B2 3px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.btn-wrapper {
+    display: flex;
+    gap: 10px
+}
+.bottom-btn-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.bottom-btn-wrapper button {
+    padding: 5px 10px;
+    color: #8293B2;
+    background-color: #19244D;
+    border: solid #8293B2 3px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+button {
+    font-family: Scoreboard;
+}
